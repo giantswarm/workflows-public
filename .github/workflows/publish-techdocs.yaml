@@ -14,9 +14,9 @@ name: Publish TechDocs
 on:
   workflow_call:
     secrets:
-      TECHDOCS_S3_ACCESS_KEY_ID:
+      aws_access_key_id:
         required: true
-      TECHDOCS_S3_SECRET_ACCESS_KEY:
+      aws_secret_access_key:
         required: true
 
 jobs:
