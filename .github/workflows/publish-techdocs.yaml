@@ -1,6 +1,4 @@
-# This is a reusable workflow. It is meant to be used in other Giant Swarm repositories.
-#
-# The workflow publishes documentation from a repository
+# This workflow publishes documentation from a repository
 # (README.md, docs/ folder content, and helm chart README.md files)
 # for use in Backstage portals. Only effective on public repos.
 #
