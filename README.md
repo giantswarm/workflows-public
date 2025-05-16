@@ -1,2 +1,3 @@
 # workflows-public
-Reusable GitHub Actions workflows
+
+This repository exists for the reusable workflows in the `.github` folder.
