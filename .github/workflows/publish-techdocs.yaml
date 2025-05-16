@@ -12,7 +12,12 @@ name: Publish TechDocs
 # Supposed to work on pushes to the default branch only,
 # and only if relevant files were changed.
 on:
-  workflow_call: {}
+  workflow_call:
+    secrets:
+      TECHDOCS_S3_ACCESS_KEY_ID:
+        required: true
+      TECHDOCS_S3_SECRET_ACCESS_KEY:
+        required: true
 
 jobs:
   publish:
